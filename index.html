@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cal-body">
+        <div id="theme-btn" title="Light Mode">🌤</div>
+        <div id="cal-main-body">
+            <div class="outputDiv">
+                <input type="text" name="cal-history" id="cal-history" readonly>
+                <input type="text" name="cal-output" id="cal-output" readonly>
+            </div>
+            <div class="button-row">
+                <div class="cal-btn oprator-btn" id="clr-btn" data-access="clear">AC</div>
+                <div class="cal-btn oprator-btn" data-access="back">⬅</div>
+                <div class="cal-btn oprator-btn" data-access="divide-multiply">%</div>
+                <div class="cal-btn oprator-btn" data-access="divide-multiply">/</div>
+            </div>
+            <div class="button-row">
+                <div class="cal-btn" data-access="val">7</div>
+                <div class="cal-btn" data-access="val">8</div>
+                <div class="cal-btn" data-access="val">9</div>
+                <div class="cal-btn oprator-btn" data-access="divide-multiply">*</div>
+            </div>
+            <div class="button-row">
+                <div class="cal-btn" data-access="val">4</div>
+                <div class="cal-btn" data-access="val">5</div>
+                <div class="cal-btn" data-access="val">6</div>
+                <div class="cal-btn oprator-btn" data-access="plus-minus">-</div>
+            </div>
+            <div class="button-row">
+                <div class="cal-btn" data-access="val">1</div>
+                <div class="cal-btn" data-access="val">2</div>
+                <div class="cal-btn" data-access="val">3</div>
+                <div class="cal-btn oprator-btn" data-access="plus-minus">+</div>
+            </div>
+            <div class="button-row">
+                <div class="cal-btn" data-access="val">0</div>
+                <div class="cal-btn" data-access="val">.</div>
+                <div class="cal-btn equal-btn" data-access="eval">=</div>
+            </div>
+        </div>
+    </div>
+    <div class="waterMark">Copyright &copy; 2022 <a class="nameLink" href="https://www.instagram.com/rohitpratap002/">Rohit Pratap</a>. All Rights Reserved.</div>
+    <script src="./script.js"></script>
+</body>
+</html>
